@@ -17,6 +17,8 @@
   "cordovaPlugins": [
     "org.apache.cordova.media",
     "org.apache.cordova.device",
-    "org.apache.cordova.file"
+    "org.apache.cordova.file",
+    "com.ionic.keyboard",
+    "org.apache.cordova.console"
   ]
 }

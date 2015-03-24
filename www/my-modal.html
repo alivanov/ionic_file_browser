@@ -1,0 +1,9 @@
+<ion-modal-view>
+    <ion-content>
+        <ul class="list">
+            <li class="item" ng-repeat="entry in entries" >
+                <a href ng-click="getEntry(entry)">{{entry.fullPath}}</a>
+            </li>
+        </ul>
+    </ion-content>
+</ion-modal-view>
